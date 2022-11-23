@@ -1,0 +1,196 @@
+/*common start*/
+body{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#0f2656;
+}
+/*common end*/
+/*header start*/
+header{
+	border-bottom: 2px solid #f0f2f4;
+	padding: 10px 0;
+}
+.wrapper{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	/*border:1px dotted ;*/
+}
+.logo{
+	float: left;
+	width: 10%;
+	margin-top: 3px;
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 50%;
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 20px;
+	display: inline-block;
+	color: #0f2656;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+.menu ul li a:hover{
+	color: #008aff;
+	
+}
+/*header end*/
+/*Banner start*/
+
+.banner {
+	padding: 50px 0;
+}
+
+.wrapper2 {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom:0 ;
+}
+.wrapper2 h1{
+	margin: 0;
+	font-weight: 700;
+	font-size: 40px;
+	padding: 0 115px;
+	line-height: 50px;
+}
+.wrapper2 h1 span{
+	color: #008aff;
+}
+.wrapper2 p{
+	margin: 20px 0 30px;
+	padding:0 10px;
+	line-height: 20px;
+}
+
+.b_img {
+	width: 75%;
+	margin: 0 auto;
+
+}
+.b_img img{
+	width: 100%;
+
+}
+/*Banner end*/
+/*success start*/
+.success{
+	padding-bottom: 50px;
+}
+.left {
+	text-align: right;
+	float: left;
+	width: 48%;
+	s
+	padding: 0;
+}
+.left h2{
+	
+    color: #f15767;
+    margin-top: 0;
+    margin-bottom: -17px;
+    font-size: 41px;
+
+	
+}
+#p{
+	line-height: 25px;
+    font-size: 15px;
+    padding-right: 0;
+    padding-left: 28px;
+}
+.right {
+	 width: 48%;
+	 float: right;
+}
+.right h2{
+	    text-align: left;
+    font-size: 40px;
+   
+    width: 100%;
+   
+    margin-top: 0;
+   
+}
+/*success end*/
+/*feature start*/
+.feature{
+	padding-bottom: 50px;
+}
+/*single item start*/
+
+.s-f1{
+	width: 29%;
+    padding: 40px 1.5% ;
+    float: left;
+    margin-right: 2%;
+}
+.c1{
+	background-color: #fdebed;
+}
+.c2{
+	background-color: #ebf9f4;
+}
+.c3{
+	background-color: #fff7e8;
+}
+.s-f1:last-child{
+	margin-right: 0;
+}
+.s-img{
+
+}
+.s-f1 img{
+    width: 100%
+}
+.s-f1 h2{
+	margin: 15px 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+.s-f1 p{
+    margin: 0;
+    line-height: 23px;
+}
+/*single item end*/
+/*feature end*/
+/*footer start*/
+footer{
+	background-color: #008aff;
+	padding: 30px 0;
+}
+footer p{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0;
+	color: white;
+}
+footer a{
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 700;
+	color: white;
+
+}
+/*footer end*/
